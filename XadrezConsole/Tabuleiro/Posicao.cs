@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Tabuleiro
+namespace tabuleiro
 {
     internal class Posicao
     {
@@ -9,10 +9,10 @@ namespace Tabuleiro
 
         public Posicao() { }
 
-        public Posicao (int Linha, int Coluna)
+        public Posicao (int linha, int coluna)
         {
-            this.Linha = Linha;
-            this.Coluna = Coluna;
+            this.Linha = linha;
+            this.Coluna = coluna;
         }
 
         public override string ToString()

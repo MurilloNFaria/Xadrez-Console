@@ -19,5 +19,9 @@ namespace tabuleiro
             QntMovimentos = 0;
         }
 
+        public void IncrementarQntMovimento()
+        {
+            QntMovimentos++;
+        }
     }
 }

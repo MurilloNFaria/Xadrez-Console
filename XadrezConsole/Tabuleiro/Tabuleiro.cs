@@ -9,8 +9,6 @@ namespace tabuleiro
 
         private Peca[,] Pecas;
 
-        public Tabuleiro() { }
-
         public Tabuleiro(int linhas, int colunas)
         {
             Linhas = linhas;
